@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" defer></script>
+    <script src="index.js" type="module" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -19,7 +19,15 @@
         <button id="night-light">☀︎</button>
         <h1>Generate a <br /><span id="night-span">random password</span></h1>
         <h2>Never use an insecure password again.</h2>
-        <button>Generate passwords</button>
+        <div id="lengthBtn-Txt">
+          <button id="pswd-btn" onclick="generatePassword()">
+            Generate passwords
+          </button>
+          <div id="length">
+            <label for="lengthInput">Length</label>
+            <input type="text" />
+          </div>
+        </div>
         <hr />
         <div id="pswrd-text">
           <input name="password1" type="text" id="text1" />

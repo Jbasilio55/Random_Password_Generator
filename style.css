@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 45px;
 }
 
-button {
+#pswd-btn {
   background-color: var(--lgt-green-color);
   width: 191px;
   height: 42px;
@@ -61,6 +61,8 @@ button {
   border: none;
   border-radius: 5px;
   margin-bottom: 25px;
+  margin-right: 20px;
+  margin-top: 30px;
 }
 
 hr {
@@ -100,9 +102,36 @@ input {
 }
 
 #night-light {
+  background-color: var(--lgt-green-color);
   width: 50px;
+  height: 42px;
   margin-left: 450px;
   margin-top: 0;
   margin-bottom: 50px;
   color: #2f3e53;
+  border: none;
+  border-radius: 5px;
+}
+
+#lengthBtn-Txt {
+  display: flex;
+}
+
+#length {
+  display: flex;
+  flex-direction: column;
+}
+
+#length input {
+  width: 50px;
+  margin-top: 10px;
+  color: var(--text-color-dk);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+label {
+  color: var(--lgt-green-color);
 }
