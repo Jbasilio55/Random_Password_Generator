@@ -4,6 +4,29 @@ let chArray = characters;
 
 console.log(chArray[2]);
 
+function nightLightMode() {
+  let main_El = document.querySelector(".main");
+  let h1_El = document.querySelector("h1");
+  let h2_El = document.querySelector("h2");
+  let span_El = document.querySelector(".night-span");
+  let hr_El = document.querySelector("hr");
+  let night_light_btn = document.getElementById("night-light");
+
+  if (main_El.hasAttribute("id")) {
+    main_El.removeAttribute("id");
+    h1_El.removeAttribute("id");
+    h2_El.removeAttribute("id");
+    span_El.removeAttribute("id");
+    hr_El.removeAttribute("id");
+  } else {
+    main_El.setAttribute("id", "main");
+    h1_El.setAttribute("id", "h1-El");
+    h2_El.setAttribute("id", "h2-El");
+    span_El.setAttribute("id", "span-lt");
+    hr_El.setAttribute("id", "hr");
+  }
+}
+
 function generatePassword() {
   let password1 = document.getElementById("text1");
   let password2 = document.getElementById("text2");
@@ -52,3 +75,4 @@ function copyPassword2() {
 window.generatePassword = generatePassword;
 window.copyPassword1 = copyPassword1;
 window.copyPassword2 = copyPassword2;
+window.nightLightMode = nightLightMode;
