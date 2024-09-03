@@ -10,7 +10,6 @@ function nightLightMode() {
   let h2_El = document.querySelector("h2");
   let span_El = document.querySelector(".night-span");
   let hr_El = document.querySelector("hr");
-  let night_light_btn = document.getElementById("night-light");
 
   if (main_El.hasAttribute("id")) {
     main_El.removeAttribute("id");

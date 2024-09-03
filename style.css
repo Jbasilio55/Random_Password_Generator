@@ -20,7 +20,7 @@ body {
 .main {
   background-color: var(--main-background-color-dk);
   width: 550px;
-  height: 550px;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -173,3 +173,25 @@ label {
 #hr {
   border: 1px solid #d5d4d8;
 }
+
+/* #checkBox {
+  margin: 0;
+  display: flex;
+}
+
+#ch-lb {
+  margin: 0;
+}
+#letter-lb {
+  margin: 0;
+}
+
+#characters {
+  height: 20px;
+  margin: 0;
+}
+
+#letters {
+  height: 20px;
+  margin: 0;
+} */
