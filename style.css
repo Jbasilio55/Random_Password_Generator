@@ -17,7 +17,7 @@ body {
   background-color: var(--background-color);
 }
 
-#main {
+.main {
   background-color: var(--main-background-color-dk);
   width: 550px;
   height: 550px;
@@ -38,16 +38,17 @@ h1 {
   font-size: 40px;
   margin-bottom: 0;
   margin-top: 0;
+  font-weight: 800;
 }
 
-h1 #night-span {
+h1 .night-span {
   color: var(--dk-green-color);
 }
 
 h2 {
   color: var(--dk-h2-color);
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   margin-top: 10px;
   margin-bottom: 45px;
 }
@@ -151,4 +152,24 @@ label {
   color: #ffffff;
   border: none;
   border-radius: 5px;
+}
+
+#main {
+  background-color: var(--main-background-color-lt);
+}
+
+#h1-El {
+  color: #2b283a;
+}
+
+#h2-El {
+  color: var(--lgt-h2-color);
+}
+
+#span-lt {
+  color: var(--lgt-green-color);
+}
+
+#hr {
+  border: 1px solid #d5d4d8;
 }

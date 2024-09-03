@@ -15,10 +15,14 @@
   </head>
   <body>
     <div id="container">
-      <div id="main">
+      <div class="main" id="main">
         <button id="night-light">☀</button>
-        <h1>Generate a <br /><span id="night-span">random password</span></h1>
-        <h2>Never use an insecure password again.</h2>
+        <h1 id="h1-El">
+          Generate a <br /><span class="night-span" id="span-lt"
+            >random password</span
+          >
+        </h1>
+        <h2 id="h2-El">Never use an insecure password again.</h2>
         <div id="lengthBtn-Txt">
           <button id="pswd-btn" onclick="generatePassword()">
             Generate passwords
@@ -28,7 +32,7 @@
             <input type="text" id="chLength" />
           </div>
         </div>
-        <hr />
+        <hr id="hr" />
         <div id="pswrd-text">
           <input name="password1" type="text" id="text1" />
           <input name="password2" type="text" id="text2" />
